@@ -1,0 +1,65 @@
+{
+    "Index": {
+        "hero-subtitle": "Building the Future with Education",
+        "contact-btn": "Join Now",
+        "about-btn": "About us",
+        "about-title": "About us",
+        "about-p1": "We are an association committed to the empowerment of Progressive women, because we believe in their ability to be agents of change in society. We recognize that access to education is a fundamental right that is often hindered by social, economic and cultural barriers.",
+        "about-mission-title": "Our mission",
+        "about-mission": "To provide physical, educational and financial tools in a non-discriminatory, inclusive and respectful environment.",
+        "about-vision-title": "Our Vision",
+        "about-vision" :"We envision a tomorrow in which the girls and young women we support become agents of positive change in their community and the world; leaders and self-confident. Achieved through enriching education and continuous personal growth.",
+        "about-p2": "Are you interested in helping us improve the education of many girls and women?",
+        "objectives-title" : "Our Goals",
+        "objective-one" : "To facilitate access to education for girls and young people with scarce economic resources in difficult access contexts.",
+        "objetive-two": "To implement integral growth and development through tutoring for girls and young women with limited economic resources and difficult access to education.",
+        "objective-three" : "To provide physical, educational and financial tools in a non-discriminatory, inclusive and respectful environment."
+
+    },
+    "Navbar": {
+        "home": "Home",
+        "about": "About us",
+        "join" : "Join Now",
+        "donation": "Donation"
+    },
+    "ContactForm": {
+        "contact-p1": "You are one step away from helping us fulfill the dreams of many girls through better opportunities for their education.",
+        "contact-p2": "Send us your data in this form and we will contact you as soon as possible to complete the subscription process.",
+        "name-label": "Name",
+        "lastname-label": "Last Name",
+        "dob": "Day of Birth",
+        "months": "January, February, March, April, May, June, July, August, September, October, November, December",
+        "phone-label": "Phone Number",
+        "region-label": "Place of Residence",
+        "media-label": "¿How did you find out about our fundation?",
+        "media-social-network" : "Social Media",
+        "media-web-site" : "Web-site",
+        "media-recomendation": "By a friend/relative recommendation",
+        "media-advertising": "Advertising",
+        "submit-btn": "Submit"
+    } ,
+    "Statistics" : {
+        "title": "Did you know that...?",
+        "stat1-title" : "Worldwide",
+        "stat1-description": "girls are forced to devote themselves to household chores, denying them the right to education.",
+        "stat2-title" : "Worldwide",
+        "stat2-description" : "Of out-of-school girls",
+        "stat3-title" : "In Mexico",
+        "stat3-description": "They drop out of high school.",
+        "stat4-title" : "Girls and young women from 3 to 18 years",
+        "stat4-description" : "Do not attend school"
+    },
+    "About" : {
+        "title" : "About Us",
+        "main-text" : "We are an association committed to the empowerment of Progressive women, because we believe in their ability to be agents of change in society. We recognize that access to education is a fundamental right that is often hindered by social, economic and cultural barriers. We work day after day to eliminate these barriers and provide them with the necessary support so that they can continue their studies and achieve their goals. We seek to build a world where everyone has the opportunity to develop their potential, guiding them to achieve a fair and equal future, where gender is not a limiting factor, but a driving force for change and progress.",
+        "mentors-title" : "Our Mentoring Team"
+    },
+    "Success" : {
+        "title" : "Your request has been sent successfully!",
+        "subtitle": "Someone from our team will contact you shortly via email to complete your subscription process.",
+        "text": "Thank you for your interest in helping girls and young women have better opportunities to study. Together we can make a better future for them.",
+        "btn-text": "Back to Home Page"
+    }
+    
+
+}

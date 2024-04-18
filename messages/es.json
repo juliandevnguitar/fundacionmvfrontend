@@ -1,0 +1,59 @@
+{
+    "Index": {
+        "hero-subtitle": "Construyendo un Futuro con Educación",
+        "contact-btn": "Súmate",
+        "about-btn": "Conoce más",
+        "about-title": "¿Quiénes Somos?",
+        "about-p1": "Somos una asociación comprometida con el empoderamiento de mujeres Progresistas, porque creemos en su capacidad para ser agentes de cambio ella sociedad. Reconocemos que el acceso a la educación es un derecho fundamental que muchas veces se ve obstaculizado por barreras sociales, económicas y culturales",
+        "about-mission-title": "Misión",
+        "about-mission": "Suministrar las herramientas físicas, educativas y financieras en un ambiente no discriminativo, inclusivo y respetuoso.",
+        "about-vision-title": "Visión",
+        "about-vision" : "Vemos un mañana en el que niñas y jóvenes que apoyemos se conviertan en agentes de cambios positivos en su comunidad y en el mundo; líderes y seguras de sí mismas. Logrado a través de una eduación enriquecedora y crecimiento personal continuo.",
+        "about-p2": "¿Te interesa ayudarnos a mejorar la educación de muchas niñas y mujeres?",
+        "objectives-title" : "Objetivos",
+        "objective-one" : "Facilitar el acceso a la educación a niñas y jóvenes con escasos recursos económicos en contextos de díficil acceso.",
+        "objetive-two": "Implementar el crecimiento y desarrollo integral a través de tutorías a niñas y jóvenes con escasos recursos económicos y difícil acceso a la educación.",
+        "objective-three" : "Suministrar las herramientas físicas, educativas y financieras en un ambiente no discriminativo, inclusivo y respetuoso."
+        
+    },
+    "Navbar": {
+        "home": "Inicio",
+        "about": "¿Quiénes Somos?",
+        "join" : "Súmate",
+        "donation": "Donación"
+    },
+    "ContactForm": {
+        "contact-p1" : "Estás a un paso de ayudarnos a cumplir los sueños de muchas niñas a través de mejores oportunidades para su educación.",
+        "contact-p2": "Envíanos tus datos en este formulario y nosotros nos pondremos en contacto a la brevedad para completar el proceso de suscripción",
+        "name-label": "Nombre",
+        "lastname-label": "Apellidos",
+        "dob": "Fecha de nacimiento",
+        "months": "Enero, Febrero, Marzo, Abril, Mayo, Junio, Julio, Agosto, Septiembre, Octubre, Noviembre, Diciembre",
+        "phone-label": "Número Telefónico",
+        "region-label": "Lugar de Residencia",
+        "media-label": "¿Cómo te enteraste de nuestra fundación?",
+        "media-social-network" : "Redes Sociales",
+        "media-web-site" : "Sitio Web",
+        "media-recomendation": "Recomendación de alguien conocido",
+        "media-advertising": "Anuncio o publicidad",
+        "submit-btn": "Enviar"
+    },
+
+    "Statistics" : {
+        "title": "¿Sabías que niñas y jóvenes...?",
+        "stat1-title" : "A nivel mundial",
+        "stat1-description": "Obligadas a dedicarse a las tareas del hogar, negándoles educación.",
+        "stat2-title" : "A nivel mundial",
+        "stat2-description" : "No escolarizadas",
+        "stat3-title" : "En México",
+        "stat3-description": "Abandonan sus estudios de educación media superior.",
+        "stat4-title" : "Entre 3 y 18 años",
+        "stat4-description" : "En México, no asisten a la escuela"
+    }, 
+    "Success" : {
+        "title" : "¡Tu solicitud  ha sido enviada correctamente!",
+        "subtitle": "En breve alguien de nuestro equipo te contactará vía correo electrónico para completar tu proceso de suscripción",
+        "text": "Gracias por tu interés en ayudar a que niñas y jóvenes tengan mejores oportunidades para estudiar. Juntos podremos hacer un mejor futuro para ellas",
+        "btn-text": "Volver a página de inicio"
+    }
+}
