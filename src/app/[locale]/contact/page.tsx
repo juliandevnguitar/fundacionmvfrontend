@@ -1,6 +1,6 @@
 
 import ContactForm from "@/components/ui/ContactForm";
-import { useTranslations, useLocale } from "next-intl";
+import { useTranslations} from "next-intl";
 
 
 interface formTranslations {
@@ -18,10 +18,6 @@ interface formTranslations {
         submit: string
 }
 
-interface messages {
-    success: string,
-    errro: string
-}
 
 export default function ContactPage(){
     const t = useTranslations('ContactForm')
