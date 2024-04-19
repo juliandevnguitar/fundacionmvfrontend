@@ -1,13 +1,10 @@
 'use server'
 import { google } from "googleapis"
 import { redirect } from 'next/navigation'
-import { useLocale } from "next-intl"
 
 
 export  async function sendDatatoSpreadSheet(prevState, formData){
 
-    const currentLocale = useLocale();
-    
     const data = {
         name: formData.get('nombre').toString(),
         lastName: formData.get('apellidos').toString(),
@@ -52,7 +49,7 @@ export  async function sendDatatoSpreadSheet(prevState, formData){
         return {message: 'Lo sentimos, ocurrió un problema al mandar la solicitud', status:'400'}
     }
     
-    redirect(`/${currentLocale}/success`)
+    redirect(`/es/success`)
     }   
     
 
