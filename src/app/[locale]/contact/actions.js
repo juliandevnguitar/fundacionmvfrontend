@@ -1,7 +1,5 @@
 'use server'
 import { google } from "googleapis"
-import { redirect } from 'next/navigation'
-
 
 export  async function sendDatatoSpreadSheet(prevState, formData){
 
@@ -12,7 +10,7 @@ export  async function sendDatatoSpreadSheet(prevState, formData){
         month: formData.get('mes').toString(),
         year: formData.get('year').toString(),
         email: formData.get('email').toString(),
-        phone: formData.get('telefono').toString(),
+        phone: formData.get('telefono').toString().replace(/\+/g, ''),
         country: formData.get('pais').toString(),
         region: formData.get('region/estado').toString(),
         media: formData.get('medio').toString()
@@ -31,8 +29,9 @@ export  async function sendDatatoSpreadSheet(prevState, formData){
         values,
     }
 
+    const credentials = JSON.parse(process.env.GOOGLE_APPLICATION_CREDENTIALS);
 
-    const auth = await google.auth.getClient({scopes: ['https://www.googleapis.com/auth/spreadsheets']});
+    const auth = await google.auth.getClient({credentials, scopes: ['https://www.googleapis.com/auth/spreadsheets']});
 
     const service = google.sheets({ version: 'v4', auth});
 
@@ -46,10 +45,10 @@ export  async function sendDatatoSpreadSheet(prevState, formData){
         })
         
     }catch(err){
-        return {message: 'Lo sentimos, ocurrió un problema al mandar la solicitud', status:'400'}
+        return {status:'400'}
     }
     
-    redirect(`/es/success`)
+    return {status: '200'}
     }   
     
 

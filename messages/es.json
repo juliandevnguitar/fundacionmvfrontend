@@ -50,10 +50,9 @@
         "stat4-title" : "Entre 3 y 18 años",
         "stat4-description" : "En México, no asisten a la escuela"
     }, 
-    "Success" : {
-        "title" : "¡Tu solicitud  ha sido enviada correctamente!",
-        "subtitle": "En breve alguien de nuestro equipo te contactará vía correo electrónico para completar tu proceso de suscripción",
-        "text": "Gracias por tu interés en ayudar a que niñas y jóvenes tengan mejores oportunidades para estudiar. Juntos podremos hacer un mejor futuro para ellas",
-        "btn-text": "Volver a página de inicio"
+    "FormToast" : {
+        "success": "El formulario fue enviado correctamente. Muchas gracias por sumarte y apoyarnos.",
+        "error" : "Lo sentimos, algo salió mal y el formulario no pudo ser enviado. Intenta de nuevo en unos momentos o contactanos vía telefónica para mayor información."
     }
+    
 }

@@ -1,6 +1,7 @@
 
 import ContactForm from "@/components/ui/ContactForm";
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
+
 
 interface formTranslations {
     nameLabel: string,
@@ -17,8 +18,14 @@ interface formTranslations {
         submit: string
 }
 
+interface messages {
+    success: string,
+    errro: string
+}
+
 export default function ContactPage(){
     const t = useTranslations('ContactForm')
+    const m = useTranslations('FormToast')
 
     const translations: formTranslations = {
         nameLabel: t('name-label'),
@@ -42,7 +49,7 @@ export default function ContactPage(){
                 {t('contact-p1')}
             </h1>
             <h2 className="text-secondary text:md self-start mt-6">{t('contact-p2')}</h2>
-            <ContactForm formTranslations={translations} />
+            <ContactForm formTranslations={translations} messages={{success: m('success'), error: m('error')}} />
 
             
         </main>

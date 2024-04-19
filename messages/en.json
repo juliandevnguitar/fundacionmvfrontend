@@ -54,12 +54,11 @@
         "main-text" : "We are an association committed to the empowerment of Progressive women, because we believe in their ability to be agents of change in society. We recognize that access to education is a fundamental right that is often hindered by social, economic and cultural barriers. We work day after day to eliminate these barriers and provide them with the necessary support so that they can continue their studies and achieve their goals. We seek to build a world where everyone has the opportunity to develop their potential, guiding them to achieve a fair and equal future, where gender is not a limiting factor, but a driving force for change and progress.",
         "mentors-title" : "Our Mentoring Team"
     },
-    "Success" : {
-        "title" : "Your request has been sent successfully!",
-        "subtitle": "Someone from our team will contact you shortly via email to complete your subscription process.",
-        "text": "Thank you for your interest in helping girls and young women have better opportunities to study. Together we can make a better future for them.",
-        "btn-text": "Back to Home Page"
+    "FormToast" : {
+        "success": "The form was sent correctly. Thank you so much for your support!",
+        "error" : "Sorry! Something went wrong and the form wasn sent correctly. Try again later or contact us for more info."
     }
+    
     
 
 }
