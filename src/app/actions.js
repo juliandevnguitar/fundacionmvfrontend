@@ -9,7 +9,7 @@ export default async function fetchProfiles(locale){
       headers: {
         Authorization: `Bearer ${process.env.STRAPI_API_KEY}`
       } ,
-      next: { revalidate: 3600}
+      next: { revalidate: 0}
     }
     const request = await fetch(`${strapiConfig.api}/api/profiles?populate=*&locale=${locale}`, requestOptions);
     const response = await request.json();
@@ -23,7 +23,7 @@ export async function fetchProfilesById(params = '', locale){
     headers: {
       Authorization: `Bearer ${process.env.STRAPI_API_KEY}`
     } ,
-    next: { revalidate: 3600}
+    next: { revalidate: 0}
   }
   const request = await fetch(`${strapiConfig.api}/api/profiles?populate=*&locale=${locale}&${params}`, requestOptions);
   const response = await request.json();
