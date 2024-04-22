@@ -59,7 +59,7 @@ export default function BirthdayPicker({months} : {months: string[]}){
     }, [isLeapYear])
 
     return (
-        <div className="flex gap-4 items-center justify-between w-full col-start-1 col-end-5" id="fecha">
+        <div className="flex gap-4 items-center justify-start w-full col-start-1 col-end-5" id="fecha">
             <select name="dia" id="dia" className="bg-secondary p-4 rounded-xl font-semibold text-neutral ">
                {
                 getDaysArray().map((day) => (

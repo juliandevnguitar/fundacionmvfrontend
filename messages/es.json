@@ -40,19 +40,37 @@
     },
 
     "Statistics" : {
-        "title": "¿Sabías que niñas y jóvenes...?",
+        "title": "Los desafíos de la educación de niñas y jóvenes: Estadísticas.",
         "stat1-title" : "A nivel mundial",
         "stat1-description": "Obligadas a dedicarse a las tareas del hogar, negándoles educación.",
         "stat2-title" : "A nivel mundial",
         "stat2-description" : "No escolarizadas",
         "stat3-title" : "En México",
         "stat3-description": "Abandonan sus estudios de educación media superior.",
-        "stat4-title" : "Entre 3 y 18 años",
-        "stat4-description" : "En México, no asisten a la escuela"
+        "stat4-title" : "En México",
+        "stat4-description" : "Niñas de 3 a 18 años, no asisten a la escuela"
     }, 
     "FormToast" : {
         "success": "El formulario fue enviado correctamente. Muchas gracias por sumarte y apoyarnos.",
         "error" : "Lo sentimos, algo salió mal y el formulario no pudo ser enviado. Intenta de nuevo en unos momentos o contactanos vía telefónica para mayor información."
+    },
+    "Funding" : {
+        "title" : "!Apoya a niñas y mujeres de bajos recursos! Descubre nuestros mecanismos de financiameniento",
+        "heading-1" : "Oportunidad de Financiamento Educativo para Niñas en Contextos Vulnerables",
+        "content-1": "Descubre opciones de financiamiento para apoyar la educación de mujeres en situaciones económicas desafiantes",
+        "heading-2" : "Eventos de Recaudación: Únete a Nuestro Movimiento Solidario",
+        "content-2" : "¡Celebra y colabora con nosotros en nuestros eventos benéficos! Cada participación no solo es divertida, sino que también contribuye a crear oportunidades para mujeres en situación vulnerable.",
+        "heading-3" : "Crowdfunding: Juntos, Alcanzamos Más",
+        "content-3" : "¡Sé parte de nuestra comunidad de apoyo en línea! Convierte tu generosidad en acción y ayúdanos a financiar proyectos que empoderan a niñas y mujeres de bajos recursos.",
+        "heading-4": "Patrocinios Corporativos: Aliados en el Cambio",
+        "content-4" : "¡Únete a empresas comprometidas con el impacto social! Descubre cómo tu empresa puede asociarse con nosotros para marcar la diferencia en la vida de muchas mujeres",
+        "heading-5" : "Servicios y Ventas: Adquiere con Propósito",
+        "content-5" : "¡Descubre nuestros productos y servicios que transforman vidas! Cada compra no solo te ofrece calidad, sino que también contribuye a apoyar a niñas en situación vulnerable.",
+        "heading-6" : "Programas de Afiliados: Sé un Agente del Cambio",
+        "content-6" : "¡Conviértete en miembro y únete a nuestra causa! Tu membresía no solo te conecta con una comunidad comprometida, sino que también apoya nuestros esfuerzos para ayudar a niñas que requieren apoyo.",
+        "heading-7" : "Voluntariado y Donaciones en Especie: Tu Contribución Importa",
+        "content-7" : "¡Descubre cómo puedes hacer la diferencia con tu tiempo y recursos! Desde donaciones de alimentos hasta servicios voluntarios, cada contribución cuenta en nuestra misión de empoderar a mujeres de bajos recursos.",
+        "cta-text" : "Únete a nuestra comunidad y ayudanos a cambiar la vida de miles de niñas y mujeres con mejores oportunidades para su educación"
     }
     
 }

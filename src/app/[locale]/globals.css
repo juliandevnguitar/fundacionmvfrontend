@@ -8,5 +8,12 @@ html, body {
   overflow-x: hidden;
 }
 
+.funding-item-grid {
+  display: grid;
+  grid-template-columns: minmax(100px, 300px) minmax(150px, 800px);
+  justify-items: center;
+  gap: 1rem;
+  padding: 1rem;
+}
 
 

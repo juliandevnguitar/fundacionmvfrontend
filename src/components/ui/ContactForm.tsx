@@ -32,7 +32,7 @@ interface messages {
 }
 
 
-export default function ContactForm({formTranslations, messages}: {formTranslations: formTranslations, messages: messages}){
+export default function ContactForm({formTranslations, messages, locale}: {formTranslations: formTranslations, messages: messages, locale: string}){
     const [state, formAction] = useFormState(sendDatatoSpreadSheet, initialState)
 
     const months = formTranslations.months.split(', ');
@@ -60,7 +60,7 @@ export default function ContactForm({formTranslations, messages}: {formTranslati
             <p className="text-secondary font-semibold col-start-1 col-end-3">{formTranslations.phone}</p>
             <Phone />
             <p className="text-secondary font-semibold col-start-1 col-end-5">{formTranslations.region}</p>
-            <Region />
+            <Region locale={locale} />
             <p className="text-secondary font-semibold col-start-1 col-end-5">{formTranslations.mediaLabel}</p>
             <select id="medio" name="medio" className="bg-secondary text-neutral p-4 col-start-1 col-end-5 rounded-xl">
                 <option value="redes-sociales">{formTranslations.socialNetwork}</option>

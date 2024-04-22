@@ -2,7 +2,7 @@
 import { CountryDropdown, RegionDropdown, CountryRegionData } from 'react-country-region-selector';
 import { useState } from 'react';
 
-export default function Region(){
+export default function Region({locale} : {locale: string}){
     const [region, setRegion] = useState<{country: string, region: string}>({country: '', region: ''})
 
     function selectCountry (val: string){
@@ -14,8 +14,8 @@ export default function Region(){
 
     return (
         <div className='col-start-1 col-end-5 '>
-            <CountryDropdown classes='bg-secondary text-neutral w-full p-4 mb-4 rounded-xl' id='pais' name='pais' value={region.country} onChange={(val) => selectCountry(val)} />
-            <RegionDropdown id='region/estado' name='region/estado' classes='bg-secondary text-neutral p-2 w-full rounded-xl' country={region.country} value={region.region} onChange={(val) => selectRegion(val)} />
+            <CountryDropdown classes='bg-secondary text-neutral w-full p-4 mb-4 rounded-xl' defaultOptionLabel={`${locale === 'es' ? 'Seleccionar País': 'Select Country'}`} id='pais' name='pais' value={region.country} onChange={(val) => selectCountry(val)} />
+            <RegionDropdown id='region/estado' name='region/estado' blankOptionLabel={`${locale === 'es' ? 'Región/Estado' : 'Region/State'}`} classes='bg-secondary text-neutral p-2 w-full rounded-xl' country={region.country} value={region.region} onChange={(val) => selectRegion(val)} />
         </div>
     )
 }

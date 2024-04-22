@@ -39,15 +39,15 @@
         "submit-btn": "Submit"
     } ,
     "Statistics" : {
-        "title": "Did you know that...?",
+        "title": "The challenges for girls and young women regarding education: Statistics.",
         "stat1-title" : "Worldwide",
-        "stat1-description": "girls are forced to devote themselves to household chores, denying them the right to education.",
+        "stat1-description": "Forced to devote to household chores, denying them education.",
         "stat2-title" : "Worldwide",
         "stat2-description" : "Of out-of-school girls",
         "stat3-title" : "In Mexico",
         "stat3-description": "They drop out of high school.",
-        "stat4-title" : "Girls and young women from 3 to 18 years",
-        "stat4-description" : "Do not attend school"
+        "stat4-title" : "In Mexico",
+        "stat4-description" : "Of girls from 3 to 18 yearls old. Do not attend school."
     },
     "About" : {
         "title" : "About Us",
@@ -57,6 +57,25 @@
     "FormToast" : {
         "success": "The form was sent correctly. Thank you so much for your support!",
         "error" : "Sorry! Something went wrong and the form wasn sent correctly. Try again later or contact us for more info."
+    }, 
+    "Funding" : {
+        "title" : "Support low-income girls and women! Discover our funding mechanisms",
+        "heading-1" : "Educational Funding Opportunity for Girls in Vulnerable Contexts",
+        "content-1": "Discover funding options to support the education of women in challenging economic situations.",
+        "heading-2" : "Fundraising Events: Join Our Solidarity Movement",
+        "content-2" : "Celebrate and collaborate with us in our charity events! Every participation is not only fun, but also contributes to creating opportunities for women in vulnerable situations.",
+        "heading-3" : "Crowdfunding: Together, We Can Do More",
+        "content-3" : "Be part of our online support community! Turn your generosity into action and help us fund projects that empower low-income girls and women.",
+        "heading-4": "Corporate Sponsorships: Partners in Change",
+        "content-4" : "Join companies committed to social impact! Find out how your company can partner with us to make a difference in the lives of women in need.",
+        "heading-5" : "Services and Sales: Get our Products with Purpose",
+        "content-5" : "Discover our products and services that transform lives! Every purchase not only offers you quality, but also contributes to support girls in vulnerable situations.",
+        "heading-6" : "Affiliate Programs: Be an Agent of Change",
+        "content-6" : "Become a member and join our cause! Your membership not only connects you to an engaged community, but also supports our efforts to help women and girls.",
+        "heading-7" : "Volunteering and In-Kind Donations: Your Contribution Matters",
+        "content-7" : "Find out how you can make a difference with your time and resources! From food donations to volunteer services, every contribution counts in our mission to empower girls and young women.",
+        "cta-text" : "Join our community and help us change the lives of thousands of girls and women with better educational opportunities."
+        
     }
     
     

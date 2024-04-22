@@ -41,8 +41,8 @@ const statistics: statistic[] = [
 ]
 
     return (
-        <section className="w-full bg-base-100 text-center rounded-lg py-10 px-2 max-w-screen-xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center gap-10">
-            <h1 className="text-secondary text-2xl font-bold col-start-1 col-end-2 md:col-end-3 lg:col-end-4">{t('title')}</h1>
+        <section className="w-full bg-base-100 text-center rounded-lg py-10 px-2 md:px-8 max-w-screen-xl grid grid-cols-1 md:grid-cols-4 items-center justify-items-center gap-10">
+            <h1 className="text-secondary text-2xl font-bold col-start-1 col-end-2 md:col-end-5">{t('title')}</h1>
             {statistics.map((stat) => (
                 <StatisticCard statistic={stat} key={stat.id}/>
             ))}

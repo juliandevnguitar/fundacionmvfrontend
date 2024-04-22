@@ -2,6 +2,7 @@
 import { statistic } from "@/lib/types";
 import { useEffect, useState} from "react";
 import StatAvatar from "./StatAvatar";
+import { motion } from "framer-motion";
 
 export default function StatisticCard({statistic} : {statistic: statistic}){
     const [count, setCount] = useState<number>(0)
@@ -25,17 +26,17 @@ export default function StatisticCard({statistic} : {statistic: statistic}){
 
 
     return (
-            <div className="grid grid-cols-2 shadow-md shadow-primary bg-secondary rounded-lg ">
-                <div className="stat place-items-start h-full grid-cols-2 sm:grid-cols-3 gap-4  col-start-1 col-end-3">
-                    <div className="stat-title text-neutral font-semibold self-end">{statistic.title}</div>
-                    <div className="stat-value text-primary text-[3rem] self-center">{count.toString() + statistic.type}</div>
-                    <StatAvatar imgUrl={statistic.imgUrl} /> 
-                    <div className="stat-desc text-neutral text-[0.85rem] lg:text-[0.75rem] text-wrap sm:text-nowrap ">{statistic.subtitle}</div>
-                </div>
-               
-            </div>
-           
-        
-       
+    
+        <motion.div initial={{scale:0, opacity: 0, translateY: 200, zIndex: 1, backgroundColor: "#41C1BA", color: '#1D4355'}} 
+                    whileInView={{scale: 1, opacity: 1, translateY: 0}} 
+                    whileHover={{scale: 1.1, zIndex: 10, backgroundColor: '#1D4355', color: '#F2F1EC'}}
+                    transition={{type:'tween', duration:0.8}}
+                    viewport={{once: true, amount: 0.6}}
+         className="flex flex-col item-center bg-primary text-secondary rounded-xl py-6 px-8 w-[230px] min-h-[380px] ">
+            <div className="text-[1.2rem] font-semibold mb-4 ">{statistic.title}</div>
+            <StatAvatar imgUrl={statistic.imgUrl} /> 
+            <div className="text-[2.6rem] font-extrabold mt-6">{count.toString() + statistic.type}</div>
+            <div className=" font-semibold text-sm">{statistic.subtitle}</div>
+        </motion.div>
     )
 }
