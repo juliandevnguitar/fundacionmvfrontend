@@ -71,6 +71,19 @@
         "heading-7" : "Voluntariado y Donaciones en Especie: Tu Contribución Importa",
         "content-7" : "¡Descubre cómo puedes hacer la diferencia con tu tiempo y recursos! Desde donaciones de alimentos hasta servicios voluntarios, cada contribución cuenta en nuestra misión de empoderar a mujeres de bajos recursos.",
         "cta-text" : "Únete a nuestra comunidad y ayudanos a cambiar la vida de miles de niñas y mujeres con mejores oportunidades para su educación"
+    }, 
+    "Goodbye" : {
+        "title" : "Con tu donativo, nos ayudarás a mejorar la calidad de la educación de muchas niñas. Luchemos juntos por un mejor mañana, construyendo un futuro con educación"
+    },
+    "Footer" : {
+        "title" : "¿Quieres sumarte a la misión de Mujer Alada?",
+        "btn-text" : "Súmate",
+        "about" : "¿Quiénes Somos?",
+        "contact" : "Contacto",
+        "privacy" : "Política de Privacidad",
+        "TandC" : "Términos y Condiciones",
+        "subtitle" : "Sigue a Mujer Alada en nuestras redes sociales",
+        "copyright" : "Fundacion Marlene Velazquez A.C. todos los derechos reservados. "
     }
     
 }

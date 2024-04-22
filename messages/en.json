@@ -76,6 +76,19 @@
         "content-7" : "Find out how you can make a difference with your time and resources! From food donations to volunteer services, every contribution counts in our mission to empower girls and young women.",
         "cta-text" : "Join our community and help us change the lives of thousands of girls and women with better educational opportunities."
         
+    }, 
+    "Goodbye" : {
+        "title" : "With your donation, you will help us to improve the quality of education for many girls. Let's fight together for a better tomorrow, building a future with education."
+    },
+    "Footer" : {
+        "title" : "Do you want to join the Mujer Alada's mission?",
+        "btn-text" : "Join Now",
+        "about" : "About Us",
+        "contact" : "Contact",
+        "privacy" : "Privacy Policie",
+        "TandC" : "Terms and Conditions",
+        "subtitle" : "Follow Mujer Alada on Social Media",
+        "copyright" : "Fundación Marlene Velazquez A.C. All rights reserved. "
     }
     
     

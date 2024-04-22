@@ -11,7 +11,7 @@ interface heroTranslations {
 export default function HeroContent({currentLocale, heroTranslations} : {currentLocale: string, heroTranslations: heroTranslations}){
     
     return (
-     <motion.div initial={{ opacity: 0}} whileInView={{ opacity: 1}} transition={{type: 'tween', duration: 1.5}} viewport={{once:true, amount: 'all'}}
+     <motion.div initial={{ opacity: 0}} whileInView={{ opacity: 1}} transition={{type: 'tween', duration: 0.8}} viewport={{once:true, amount: 'all'}}
       className="hero-content p-[3rem] text-center text-neutral w-full max-w-full backdrop-blur-sm bg-secondary/50">
         <div className="max-w-xl  ">
             <h2 className="mb-5 text-6xl lg:text-8xl font-bold text-primary">Mujer Alada</h2>
