@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Montserrat } from "next/font/google";
 import NavBar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import { useTranslations, useLocale } from "next-intl";
 import "./globals.css";
 
 const montse = Montserrat({subsets: ["latin"]});
@@ -16,11 +17,22 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+
+  const t = useTranslations('Navbar')
+    const currentLocale = useLocale();
+
+    const translations = {
+        home: t('home'),
+        about: t('about'),
+        join: t('join'),
+        donations: t('donation')
+    }
+
   return (
     <html lang="en">
 
       <body className={`${montse.className} flex flex-col items-center`}>
-        <NavBar />
+        <NavBar translations={translations} locale={currentLocale} />
         {children}
         <Footer />
         </body>

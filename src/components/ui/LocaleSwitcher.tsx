@@ -20,7 +20,7 @@ function LocaleSwitcher() {
 
   return (
     <label className="border-2 rounded-lg border-primary" htmlFor="lang-selector">
-        <select defaultValue={currentLocale} name="lang-selector" id="lang-selector" className="bg-primary py-2 text-secondary font-semibold cursor-pointer" onChange={onSelectChange} disabled={isPending}>
+        <select defaultValue={currentLocale} name="lang-selector" id="lang-selector" className="bg-primary py-2 text-secondary text-sm md:text-md font-semibold cursor-pointer" onChange={onSelectChange} disabled={isPending}>
             <option value="en">English</option>
             <option value="es">Español</option>
         </select>
