@@ -1,7 +1,7 @@
 'use client'
 import Link from "next/link"
 import DropdownMenu from "./ui/DropdownMenu";
-import { motion, useScroll, useMotionValueEvent, useMotionValue} from "framer-motion";
+import { motion, useScroll, useMotionValueEvent} from "framer-motion";
 import { useState } from "react";
 import LocaleSwitcher from "./ui/LocaleSwitcher";
 
@@ -13,24 +13,11 @@ interface translations {
 }
 
 export default function NavBar({translations, locale} : {translations: translations, locale: string}){
-    const [hidden, setHidden] = useState<boolean>(false)
-
-    const { scrollY} = useScroll()
-
-    useMotionValueEvent(scrollY, "change", () => {
-       if (scrollY.getVelocity() > 50) {
-        setHidden(true)
-       } else if (scrollY.getVelocity() <= 20) {
-        setHidden(false)
-       }
-       
-      })
-
+   
     const currentLocale = locale
 
- 
     return (
-        <div className={`navbar ${hidden ? 'hidden' : ''} fixed backdrop-blur-lg bg-neutral/70 p-[1em] z-20`}>
+    <div className={`navbar fixed backdrop-blur-lg bg-neutral/70 p-[1em] z-20`}>
         <div className="navbar-start">
          <img src='/logo.png' alt="logotipo mujer alada" className="w-[60px] h-[60px] md:w-[80px] md:h-[80px]"  />
         </div>
